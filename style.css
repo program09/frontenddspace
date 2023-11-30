@@ -2270,6 +2270,16 @@ input{
     position: relative !important;
 }
 
+#aspect_administrative_collection_AssignCollectionRoles_table_roles .ds-table-row .ds-table-cell{
+    position: relative !important;
+}
+
+.ds-table-row .ds-table-cell .ds-button-field{
+    position: absolute !important;
+    top: 0;
+}
+
+
 /** curar */
 #aspect_administrative_community_CurateCommunityForm_div_community-curate.ds-paragraph input{
     position: relative !important;
@@ -2286,6 +2296,9 @@ input{
 #aspect_administrative_collection_CurateCollectionForm_field_submit_return{
     position: relative;
 }
+
+
+
 
 
 /** item enviado metadatos */
