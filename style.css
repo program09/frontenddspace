@@ -2317,6 +2317,15 @@ input{
 }
 
 
+#aspect_administrative_collection_DeleteCollectionRoleConfirm_div_collection-role-delete{
+    position: relative;
+}
+
+#aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_confirm,
+#aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_cancel{
+    position: relative;
+}
+
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
         width: 100% !important;
