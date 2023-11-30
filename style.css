@@ -2317,12 +2317,15 @@ input{
 }
 
 
-#aspect_administrative_collection_DeleteCollectionRoleConfirm_div_collection-role-delete{
+#aspect_administrative_collection_DeleteCollectionRoleConfirm_div_collection-role-delete,
+#aspect_administrative_collection_DeleteCollectionConfirm_div_collection-confirm-delete{
     position: relative;
 }
 
 #aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_confirm,
-#aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_cancel{
+#aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_cancel,
+#aspect_administrative_collection_DeleteCollectionConfirm_field_submit_cancel,
+#aspect_administrative_collection_DeleteCollectionConfirm_field_submit_confirm{
     position: relative;
 }
 
