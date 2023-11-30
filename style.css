@@ -2155,20 +2155,97 @@ input{
 }
 
 #aspect_administrative_collection_CreateCollectionForm_field_submit_cancel,
-#aspect_administrative_collection_CreateCollectionForm_field_submit_save{
+#aspect_administrative_collection_CreateCollectionForm_field_submit_save,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_edit_template,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_delete_template{
     width: 100px !important;
     position: relative;
     top: 0;
     left: 0;
 }
 
-#aspect_administrative_collection_CreateCollectionForm_field_submit_save{
+#aspect_administrative_collection_CreateCollectionForm_field_submit_save,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_edit_template
+{
     background-color: rgb(92, 173, 110) !important;
 }
-#aspect_administrative_collection_CreateCollectionForm_field_submit_cancel{
+#aspect_administrative_collection_CreateCollectionForm_field_submit_cancel,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_delete_template{
     background-color: rgb(223, 109, 109) !important;
 }
 
+
+/** editar comunidades */
+#aspect_administrative_collection_EditCollectionMetadataForm_list_options{
+    margin-bottom: 10px !important;
+}
+#aspect_administrative_collection_EditCollectionMetadataForm_list_options .active-tab{
+    background-color: var(--color-1);
+    color: #fff !important;
+    height: 100%;
+}
+.pane{
+    background-color: #fff;
+    box-shadow: var(--shadow-1);
+    border-radius: 10px;
+    position: relative;
+}
+#aspect_administrative_collection_EditCollectionMetadataForm_list_metadataList,
+#aspect_administrative_community_EditCommunityMetadataForm_list_metadataList{
+    position: relative;
+}
+#aspect_administrative_collection_EditCollectionMetadataForm_list_metadataList input,
+#aspect_administrative_collection_EditCollectionMetadataForm_list_metadataList textarea,
+#aspect_administrative_community_EditCommunityMetadataForm_list_metadataList input,
+#aspect_administrative_community_EditCommunityMetadataForm_list_metadataList textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-input);
+    border: 0;
+    border-radius: 10px;
+
+}
+
+#aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph,
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+#aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph input,
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph input{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_save,
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_save{
+    background-color: rgb(48, 153, 202);
+}
+
+#aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_delete,
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_delete{
+    background-color: rgb(235, 67, 67);
+}
+
+#aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_return,
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_return{
+    background-color: rgb(66, 173, 75);
+}
+
+
+#aspect_administrative_community_EditCommunityMetadataForm_field_submit_return{
+    position: relative;
+}
 
 
 
