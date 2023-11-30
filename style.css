@@ -2174,6 +2174,13 @@ input{
     background-color: rgb(223, 109, 109) !important;
 }
 
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_delete_template,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_edit_template,
+#aspect_administrative_collection_EditCollectionMetadataForm_field_submit_create_template
+{
+    display: none !important;
+}
+
 
 /** editar comunidades */
 #aspect_administrative_collection_EditCollectionMetadataForm_list_options{
