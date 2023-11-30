@@ -2248,6 +2248,46 @@ input{
 }
 
 
+/** botones de rol y curar */
+.ds-table-cell{
+    position: relative !important;
+}
+
+#aspect_administrative_community_AssignCommunityRoles_field_submit_create_admin{
+    top: 0;
+    background-color: red !important;
+    padding: 5px 10px;
+}
+
+#aspect_administrative_community_AssignCommunityRoles_field_submit_return,
+#aspect_administrative_collection_AssignCollectionRoles_field_submit_return{
+    position: relative !important;
+    top: 0;
+    left: 0;
+}
+
+.ds-table-row td{
+    position: relative !important;
+}
+
+/** curar */
+#aspect_administrative_community_CurateCommunityForm_div_community-curate.ds-paragraph input{
+    position: relative !important;
+    width: 100%;
+}
+#aspect_administrative_community_CurateCommunityForm_field_submit_curate_task,
+#aspect_administrative_community_CurateCommunityForm_field_submit_return,
+#aspect_administrative_community_CurateCommunityForm_field_submit_queue_task,
+#aspect_administrative_collection_ToggleCollectionHarvestingForm_field_submit_return,
+#aspect_administrative_collection_ToggleCollectionHarvestingForm_div_collection-harvesting-setup,
+#aspect_administrative_collection_ToggleCollectionHarvestingForm_field_submit_save,
+#aspect_administrative_collection_CurateCollectionForm_field_submit_curate_task,
+#aspect_administrative_collection_CurateCollectionForm_field_submit_queue_task,
+#aspect_administrative_collection_CurateCollectionForm_field_submit_return{
+    position: relative;
+}
+
+
 
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
