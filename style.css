@@ -2288,6 +2288,21 @@ input{
 }
 
 
+/** item enviado metadatos */
+.file-link a{
+    background-color: var(--color-2);
+    padding: 10px 30px;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.file-link a:hover{
+    background-color: var(--color-1);
+}
+
 
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
