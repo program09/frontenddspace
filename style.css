@@ -2325,16 +2325,41 @@ input{
 
 
 #aspect_administrative_collection_DeleteCollectionRoleConfirm_div_collection-role-delete,
-#aspect_administrative_collection_DeleteCollectionConfirm_div_collection-confirm-delete{
+#aspect_administrative_collection_DeleteCollectionConfirm_div_collection-confirm-delete,
+#aspect_administrative_community_DeleteCommunityConfirm_div_community-confirm-delete,
+#aspect_artifactbrowser_ConfigurableBrowse_div_browse-navigation,
+#aspect_artifactbrowser_ConfigurableBrowse_list_jump-list{
     position: relative;
 }
 
 #aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_confirm,
 #aspect_administrative_collection_DeleteCollectionRoleConfirm_field_submit_cancel,
 #aspect_administrative_collection_DeleteCollectionConfirm_field_submit_cancel,
-#aspect_administrative_collection_DeleteCollectionConfirm_field_submit_confirm{
+#aspect_administrative_collection_DeleteCollectionConfirm_field_submit_confirm,
+#aspect_administrative_community_DeleteCommunityConfirm_field_submit_confirm,
+#aspect_administrative_community_DeleteCommunityConfirm_field_submit_cancel,
+#aspect_artifactbrowser_ConfigurableBrowse_field_update{
     position: relative;
 }
+
+/*** listado por */
+#aspect_artifactbrowser_ConfigurableBrowse_list_jump-list{
+    display: flex !important;
+    overflow-x: auto;
+}
+
+#aspect_artifactbrowser_ConfigurableBrowse_field_update{
+    top: 0;
+    right: 0;
+}
+
+#aspect_artifactbrowser_ConfigurableBrowse_field_submit{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+
 
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
