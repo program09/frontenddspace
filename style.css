@@ -2235,17 +2235,22 @@ input{
 }
 
 #aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_save,
-#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_save{
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_save,
+
+#aspect_submission_StepTransformer_field_submit_cancel{
     background-color: rgb(48, 153, 202);
 }
 
 #aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_delete,
-#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_delete{
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_delete,
+#aspect_submission_StepTransformer_field_submit_prev
+{
     background-color: rgb(235, 67, 67);
 }
 
 #aspect_administrative_collection_EditCollectionMetadataForm_div_collection-metadata-edit .ds-paragraph #aspect_administrative_collection_EditCollectionMetadataForm_field_submit_return,
-#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_return{
+#aspect_administrative_community_EditCommunityMetadataForm_div_community-metadata-edit .ds-paragraph #aspect_administrative_community_EditCommunityMetadataForm_field_submit_return,
+#aspect_submission_StepTransformer_field_submit_next{
     background-color: rgb(66, 173, 75);
 }
 
@@ -2300,7 +2305,9 @@ input{
 #aspect_administrative_collection_ToggleCollectionHarvestingForm_field_submit_save,
 #aspect_administrative_collection_CurateCollectionForm_field_submit_curate_task,
 #aspect_administrative_collection_CurateCollectionForm_field_submit_queue_task,
-#aspect_administrative_collection_CurateCollectionForm_field_submit_return{
+#aspect_administrative_collection_CurateCollectionForm_field_submit_return,
+#aspect_submission_StepTransformer_div_submit-upload,
+#aspect_submission_StepTransformer_field_submit_upload{
     position: relative;
 }
 
@@ -2338,7 +2345,10 @@ input{
 #aspect_administrative_collection_DeleteCollectionConfirm_field_submit_confirm,
 #aspect_administrative_community_DeleteCommunityConfirm_field_submit_confirm,
 #aspect_administrative_community_DeleteCommunityConfirm_field_submit_cancel,
-#aspect_artifactbrowser_ConfigurableBrowse_field_update{
+#aspect_artifactbrowser_ConfigurableBrowse_field_update,
+#aspect_submission_StepTransformer_field_submit_next,
+#aspect_submission_StepTransformer_field_submit_cancel,
+#aspect_submission_StepTransformer_field_submit_prev{
     position: relative;
 }
 
@@ -2357,6 +2367,259 @@ input{
     position: relative;
     top: 0;
     right: 0;
+}
+
+/** envio de item jurado */
+#aspect_submission_StepTransformer_field_submit_next,
+#aspect_submission_StepTransformer_field_submit_cancel,
+#aspect_submission_StepTransformer_field_submit_prev{
+    left: 0;
+    top: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#aspect_submission_StepTransformer_field_submit_upload{
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    background-color: var(--color-1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#aspect_submission_StepTransformer_field_description{
+    padding: 10px;
+    background-color: var(--color-input);
+    border-radius: 10px;
+    border: 0;
+}
+
+/** vista previa de datos botones negros*/
+
+#aspect_submission_StepTransformer_div_submit-upload .ds-form-sublist ol input{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--color-2);
+}
+
+#aspect_submission_StepTransformer_div_submit-upload .ds-form-sublist ol{
+    background-color: #fff;
+    box-shadow: var(--shadow-1);
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#aspect_submission_StepTransformer_field_submit_jump_2_1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/** registro de metadatos */
+#aspect_administrative_registries_MetadataRegistryMain_div_metadata-registry-main{
+    position: relative;
+}
+
+#aspect_administrative_registries_MetadataRegistryMain_field_submit_delete{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(239, 117, 117);
+}
+
+
+#aspect_administrative_registries_MetadataRegistryMain_div_add-schema input{
+    width: 100%;
+}
+
+#aspect_administrative_registries_MetadataRegistryMain_field_namespace,
+#aspect_administrative_registries_MetadataRegistryMain_field_name{
+    background-color: var(--color-input);
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#aspect_administrative_registries_MetadataRegistryMain_field_submit_add{
+    position: relative;
+    top: 0;
+    left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(129, 203, 117);
+}
+
+/** esquema de metadatos */
+#aspect_administrative_registries_EditMetadataSchema_div_metadata-schema-edit{
+    position: relative;
+}
+
+#aspect_administrative_registries_EditMetadataSchema_field_newElement,
+#aspect_administrative_registries_EditMetadataSchema_field_newQualifier,
+#aspect_administrative_registries_EditMetadataSchema_field_newNote{
+    padding: 10px;
+    background-color: var(--color-input);
+    border-radius: 10px;
+    border: 0;
+}
+
+#aspect_administrative_registries_EditMetadataSchema_field_submit_move,
+#aspect_administrative_registries_EditMetadataSchema_field_submit_delete,
+#aspect_administrative_registries_EditMetadataSchema_field_submit_return,
+#aspect_administrative_registries_EditMetadataSchema_field_submit_add{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+
+/** crear nuevo usuario */
+#aspect_administrative_eperson_AddEPersonForm_div_eperson-add{
+    position: relative;
+}
+#aspect_administrative_eperson_AddEPersonForm_div_eperson-add input{
+    padding: 10px;
+    background-color: var(--color-input);
+    border-radius: 10px;
+    border: 0;
+}
+#aspect_administrative_eperson_AddEPersonForm_field_submit_save,
+#aspect_administrative_eperson_AddEPersonForm_field_submit_cancel{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#aspect_administrative_eperson_AddEPersonForm_field_submit_save{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--color-1) !important;
+}
+
+#aspect_administrative_eperson_AddEPersonForm_field_submit_cancel{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(215, 103, 103) !important;
+}
+
+/** administrar grupos y usuarios*/
+#aspect_administrative_group_ManageGroupsMain_div_groups-main,
+#aspect_administrative_eperson_ManageEPeopleMain_div_epeople-main{
+    position: relative;
+}
+
+#aspect_administrative_group_ManageGroupsMain_field_submit_search,
+#aspect_administrative_group_ManageGroupsMain_field_submit_delete,
+#aspect_administrative_eperson_ManageEPeopleMain_field_submit_delete,
+#aspect_administrative_eperson_ManageEPeopleMain_field_submit_search{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/** editar privilegios */
+#aspect_administrative_authorization_EditContainerPolicies_div_edit-container-policies{
+    position: relative;
+}
+
+#aspect_administrative_authorization_EditContainerPolicies_field_submit_delete,
+#aspect_administrative_authorization_EditContainerPolicies_field_submit_return{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/** editar usuario */
+#aspect_administrative_eperson_EditEPersonForm_div_eperson-edit{
+    position: relative;
+}
+
+#aspect_administrative_eperson_EditEPersonForm_field_submit_reset_password,
+#aspect_administrative_eperson_EditEPersonForm_field_submit_cancel,
+#aspect_administrative_eperson_EditEPersonForm_field_submit_save,
+#aspect_administrative_eperson_EditEPersonForm_field_submit_login_as,
+#aspect_administrative_eperson_EditEPersonForm_field_submit_delete
+{
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+/** editor de grupos */
+#aspect_administrative_group_EditGroupForm_div_group-edit{
+    position: relative;
+}
+
+#aspect_administrative_group_EditGroupForm_field_submit_clear,
+#aspect_administrative_group_EditGroupForm_field_submit_cancel,
+#aspect_administrative_group_EditGroupForm_field_submit_save,
+#aspect_administrative_group_EditGroupForm_field_submit_search_groups,
+#aspect_administrative_group_EditGroupForm_field_submit_search_epeople,
+#aspect_administrative_group_EditGroupForm_field_submit_remove_eperson_638b85c2-966a-43e5-a606-598d3d89da72{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#aspect_administrative_group_EditGroupForm_field_submit_remove_eperson_638b85c2-966a-43e5-a606-598d3d89da72{
+    width: 60px;
+    background-color: rgb(224, 102, 102);
+}
+
+/** gestor de privilegios avanzados */
+#aspect_administrative_authorization_AdvacedAuthorizationsForm_div_advanced-authorization{
+    position: relative;
+}
+
+#aspect_administrative_authorization_AdvacedAuthorizationsForm_field_submit_remove_all,
+#aspect_administrative_authorization_AdvacedAuthorizationsForm_field_submit_add,
+#aspect_administrative_authorization_AdvacedAuthorizationsForm_field_submit_return{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/** pribilegios de autorizacion */
+#aspect_administrative_authorization_AuthorizationMain_div_authorization-main{
+    position: relative;
+}
+#aspect_administrative_authorization_AuthorizationMain_field_submit_edit{
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 
