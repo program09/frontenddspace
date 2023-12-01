@@ -2641,6 +2641,40 @@ input{
 }
 
 
+/* editar item*/
+#aspect_administrative_item_EditItemStatusForm_div_edit-item-status .ds-table-row td{
+    position: relative;
+}
+#aspect_administrative_item_EditItemStatusForm_field_submit_return,
+#aspect_administrative_item_EditItemStatusForm_field_submit_move,
+#aspect_administrative_item_EditItemStatusForm_field_submit_private,
+#aspect_administrative_item_EditItemStatusForm_field_submit_delete,
+#aspect_administrative_item_EditItemStatusForm_field_submit_private,
+#aspect_administrative_item_EditItemStatusForm_field_submit_delete,
+#aspect_administrative_item_EditItemStatusForm_field_submit_withdraw,
+#aspect_administrative_item_EditItemStatusForm_field_submit_authorization,
+#aspect_administrative_item_ConfirmItemForm_field_submit_cancel,
+#aspect_administrative_item_ConfirmItemForm_field_submit_confirm,
+#aspect_administrative_authorization_EditItemPolicies_field_submit_delete,
+#aspect_administrative_authorization_EditItemPolicies_field_submit_return,
+#aspect_administrative_item_MoveItemForm_field_submit_cancel,
+#aspect_administrative_item_MoveItemForm_field_submit_move,
+#aspect_administrative_item_EditItemBitstreamsForm_field_submit_update_order,
+#aspect_administrative_item_EditItemBitstreamsForm_field_submit_delete,
+#aspect_administrative_item_EditItemBitstreamsForm_field_submit_return,
+#aspect_administrative_item_EditItemMetadataForm_field_submit_return,
+#aspect_administrative_item_EditItemMetadataForm_field_submit_update,
+#aspect_administrative_item_EditItemMetadataForm_field_submit_add,
+#aspect_administrative_item_CurateItemForm_field_submit_curate_task,
+#aspect_administrative_item_CurateItemForm_field_submit_queue_task,
+#aspect_administrative_item_CurateItemForm_field_submit_return
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
         width: 100% !important;
