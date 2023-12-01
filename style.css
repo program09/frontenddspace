@@ -2636,6 +2636,8 @@ input{
 /*envio confirmado*/
 #aspect_submission_submit_CompletedStep_field_submit_again{
     position:relative;
+    top: 0;
+    left: 0;
 }
 
 
