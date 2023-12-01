@@ -358,11 +358,9 @@
                                         <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
                                         dri:metadata[@element='identifier' and @qualifier='url']"/>
                                     </xsl:attribute>
-                                    <i18n:text>xmlui.dri2xhtml.structural.profile</i18n:text>
+                                    <i18n:text></i18n:text>
                                     <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
                                     dri:metadata[@element='identifier' and @qualifier='firstName']"/>
-                                    <xsl:text> </xsl:text>
-                                    <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/dri:metadata[@element='identifier' and @qualifier='lastName']"/>
                                 </a>
                                 <xsl:text> | </xsl:text>
                                 <a>
@@ -370,12 +368,16 @@
                                         <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
                                         dri:metadata[@element='identifier' and @qualifier='logoutURL']"/>
                                     </xsl:attribute>
-                                    <i18n:text>xmlui.dri2xhtml.structural.logout</i18n:text>
+                                    <i18n:text>
+                                        <img src="https://cdn-icons-png.flaticon.com/128/11494/11494611.png" alt="" width="20px" height="20px" />
+                                    </i18n:text>
                                 </a>
 
                             </p>
                             <p id="btn_menu">
-                                <a >menu</a>
+                                <a >
+                                    <img src="https://cdn-icons-png.flaticon.com/128/13100/13100792.png" alt="" width="20px" height="20px" />
+                                </a>
                             </p>
                         </div>
                     </xsl:when>
@@ -387,11 +389,16 @@
                                         <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
                                         dri:metadata[@element='identifier' and @qualifier='loginURL']"/>
                                     </xsl:attribute>
-                                    <i18n:text>xmlui.dri2xhtml.structural.login</i18n:text>
+                                    <i18n:text>
+                                        
+                                        <img src="https://cdn-icons-png.flaticon.com/128/10628/10628673.png" alt="" width="20px" height="20px" />
+                                    </i18n:text>
                                 </a>
                             </p>
                             <p id="btn_menu">
-                                <a >menu</a>
+                                <a >
+                                    <img src="https://cdn-icons-png.flaticon.com/128/13100/13100792.png" alt="" width="20px" height="20px" />
+                                </a>
                             </p>
                         </div>
                     </xsl:otherwise>
