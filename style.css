@@ -2633,6 +2633,10 @@ input{
     left: 0;
 }
 
+/*envio confirmado*/
+#aspect_submission_submit_CompletedStep_field_submit_again{
+    position:relative;
+}
 
 
 @media (max-width:1064px) {
