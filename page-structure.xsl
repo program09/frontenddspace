@@ -362,7 +362,7 @@
                                     <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
                                     dri:metadata[@element='identifier' and @qualifier='firstName']"/>
                                 </a>
-                                <xsl:text> | </xsl:text>
+                                
                                 <a>
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="/dri:document/dri:meta/dri:userMeta/
