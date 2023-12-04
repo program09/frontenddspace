@@ -2675,6 +2675,25 @@ input{
 }
 
 
+.ds-button-field{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#ds-user-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#ds-user-box p a{
+    text-decoration: none;
+}
+
+
+
 @media (max-width:1064px) {
     #ds-content-wrapper #ds-content #ds-body {
         width: 100% !important;
